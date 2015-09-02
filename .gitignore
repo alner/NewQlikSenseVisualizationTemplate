@@ -1,4 +1,5 @@
 node_modules/
 VisualizationTemplate.js
+VisualizationTemplate.qext
 *.zip
 *.map
