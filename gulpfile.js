@@ -8,7 +8,7 @@ var startDevServer = require('./server').start;
 var build = require('./server').build;
 
 
-var templateFile = './src/Template.qext';
+var templateFile = './src/Template.qextmpl';
 var name = path.basename(__dirname);
 
 gulp.task('build', function(callback){
