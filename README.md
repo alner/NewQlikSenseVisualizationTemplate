@@ -1,6 +1,6 @@
 # Qlik Sense visualization template (ES2015 + BABEL + WebPack + GulpJS)
 
-Supports hot rebuilds and browser refresh in response to file modifications.
+Supports ES2015 (BABEL), bundling multiple modules (WEBPACK), hot rebuilds and browser refresh in response to file modifications.
 
 ## Installation
 
@@ -19,7 +19,7 @@ Hit
 
 Modify *Template.qext*.
 Set appropriate document **url** parameter in the *server.config.json*.
-Set appropriate local development server port (**devServerPort** parameter) in the *server.config.json*.
+Set appropriate local development server port (**devServerPort** parameter) in the *server.config.json. Default value is 8080.
 
 ## Usage
 
@@ -33,7 +33,7 @@ npm run build # for production
 
 ```
 
-Open http://localhost:8080 for development.
+Open **http://localhost:8080** for development.
 
 ## Maintainers
 
