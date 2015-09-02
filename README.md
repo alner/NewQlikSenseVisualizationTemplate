@@ -4,7 +4,7 @@ Supports hot rebuilds and browser refresh in response to file modifications.
 
 ## Installation
 
-Download and unzip template.
+Download and unzip template to appropriate folder.
 
 Hit
 
@@ -14,6 +14,12 @@ Hit
 
  ```
  to install all required dependencies.
+
+## Configuration
+
+Modify *Template.qext*.
+Set appropriate document **url** parameter in the *server.config.json*.
+Set appropriate local development server port (**devServerPort** parameter) in the *server.config.json*.
 
 ## Usage
 
