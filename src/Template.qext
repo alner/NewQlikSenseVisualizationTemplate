@@ -1,6 +1,6 @@
 {
-    "name" : "Statistic block",
-    "description" : "Statistic block",
+    "name" : "Visualization Template",
+    "description" : "Visualization Template (ES2015 + BABEL + WebPack + GulpJS)",
     "preview": "preview.png",
     "icon" : "extension",
     "type" : "visualization",
