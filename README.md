@@ -36,7 +36,7 @@ npm run build # for production
 
 ```
 
-Open **http://localhost:8080** for development.
+Open **http://localhost:8080** for development. Edit src/component.js.
 
 ## Maintainers
 
