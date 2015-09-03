@@ -10,8 +10,8 @@ define(['css!./styles.css'],
 		console.log('component');
 
 		return {
-			initialProperties: initialProperties,
-			definition: definition,
-			paint: paint
+			initialProperties,
+			definition,
+			paint
 		}
 });
