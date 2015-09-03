@@ -21,7 +21,7 @@ Hit
 
 Modify *src/Template.qextmpl*.
 
-Set appropriate document **url** parameter in the *server.config.json*.
+Set appropriate Qlik Sense document **url** parameter in the *server.config.json*.
 Set appropriate local development server port (**devServerPort** parameter) in the *server.config.json*. Default value is 8080.
 
 ## Usage
