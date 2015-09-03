@@ -1,18 +1,17 @@
-var define = (window && window.define) || define;
+import initialProperties from './initialProperties';
+import definition from './definition';
+import paint from './paint';
 
-// import module1 from './module1';
-import paint from './module2';
+const define = (window && window.define) || define;
 
-define([], function(){
-	//var module1 = require('./module1');
-	console.log('component');
-	return {
-		paint: function($element, layout) {
-				console.log('*** paint ***');
-				console.log($element);
-				console.log(layout);
-				//module1.hello();
-				paint();
+define(['css!./styles.css'],
+	function(){
+		//var paint = require('./paint');
+		console.log('component');
+
+		return {
+			initialProperties: initialProperties,
+			definition: definition,
+			paint: paint
 		}
-	}
 });

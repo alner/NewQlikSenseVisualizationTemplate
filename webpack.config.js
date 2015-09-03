@@ -16,7 +16,7 @@ var config = {
 		]
 	},
 	output: {
-		path: __dirname,
+		path: path.resolve(__dirname, serverConfig.buildFolder),
 		filename: outputFilename // output file
 	},
 	plugins: [
