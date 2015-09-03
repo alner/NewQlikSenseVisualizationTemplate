@@ -14,7 +14,9 @@
   "author": "Alexander Nerush <ale.nerush@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/alner/NewQlikSenseVisualizationTemplate",
-  "dependencies": {},
+  "dependencies": {
+    "babel-runtime": "^5.8.20"
+  },
   "devDependencies": {
     "babel": "^5.8.21",
     "babel-core": "^5.8.22",

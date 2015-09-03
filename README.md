@@ -6,6 +6,8 @@ Supports ES2015 (BABEL), bundling multiple modules (WEBPACK), hot rebuilds and b
 
 Download and unzip template to appropriate folder.
 
+Make sure you have NodeJS and NPM installed.
+
 Hit
 
 ```sh
