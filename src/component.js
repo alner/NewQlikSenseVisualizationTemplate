@@ -14,4 +14,5 @@ define(['css!./styles.css'],
 			definition,
 			paint
 		}
-});
+	}
+);
