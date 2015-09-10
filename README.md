@@ -27,16 +27,19 @@ Set **buildFolder** for production release in the *server.config.json* (default 
 
 ## Usage
 
+Hit
 ```
-npm run dev # for development
+npm run dev 
 ```
+for development.
 
 Open **http://localhost:8080** for development. Edit src/component.js.
 
-
+Hit
 ```
-npm run build # for production
+npm run build
 ```
+for production.
 
 **build/** folder will contain all files, including zip file ready to deploy.
 
