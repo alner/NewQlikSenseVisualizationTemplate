@@ -1,10 +1,10 @@
 {
-    "name" : "Visualization Template",
-    "description" : "Visualization Template (ES2015 + BABEL + WebPack + GulpJS)",
-    "preview": "preview.png",
-    "icon" : "extension",
-    "type" : "visualization",
-    "version": "0.1",
-    "preview" : "bar",
-    "author": "Alexander Nerush"
+  "name" : "Visualization Template",
+  "description" : "Visualization Template (ES2015 + BABEL + WebPack + GulpJS)",
+  "preview": "preview.png",
+  "icon" : "extension",
+  "type" : "visualization",
+  "version": "0.1",
+  "preview" : "bar",
+  "author": "Alexander Nerush"
 }

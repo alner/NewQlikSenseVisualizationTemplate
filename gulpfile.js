@@ -19,21 +19,21 @@ var lessFiles = './src/**/*.less';
 var cssFiles = './src/**/*.css';
 
 gulp.task('build', function(callback){
-    build(function(err, stats){
-        if(err) {
-          return callback(err);
-        }
-        callback();
-    });
+  build(function(err, stats){
+    if(err) {
+      return callback(err);
+    }
+    callback();
+  });
 });
 
 gulp.task('devServer', function(callback){
-    startDevServer(function(err, server){
-        if(err) {
-          return callback(err);
-        }
-        callback();
-    });
+  startDevServer(function(err, server){
+    if(err) {
+      return callback(err);
+    }
+    callback();
+  });
 });
 
 gulp.task('qext', function () {
@@ -73,7 +73,7 @@ gulp.task('zip-build', function(){
 });
 
 gulp.task('development', ['qext', 'less2css', 'css', 'watch', 'devServer']);
-gulp.task('production', function(callback) {  
+gulp.task('production', function(callback) {
   runSequence(['qext', 'less2css', 'css', 'remove-build-zip'],
     'build',
     'zip-build'

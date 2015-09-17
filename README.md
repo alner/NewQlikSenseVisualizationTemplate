@@ -22,18 +22,23 @@ Hit
 Modify *src/Template.qextmpl*.
 
 Set appropriate Qlik Sense document **url** parameter in the *server.config.json*.
+
 Set appropriate local development server port (**devServerPort** parameter) in the *server.config.json*. Default value is 8080.
+
 Set **buildFolder** for production release in the *server.config.json* (default value is *build/*).
 
 ## Usage
 
+#### Development
 Hit
 ```
-npm run dev 
+npm run dev
 ```
 for development.
 
-Open **http://localhost:8080** for development. Edit src/component.js.
+Open **http://localhost:8080** for development. Edit source files (*src* folder). Hot rebuilds starts in response to file modifications.
+
+#### Production build
 
 Hit
 ```
