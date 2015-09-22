@@ -67,7 +67,7 @@ gulp.task('remove-build-zip', function(callback){
 });
 
 gulp.task('zip-build', function(){
-  return gulp.src('build/*')
+  return gulp.src('build/**/*')
     .pipe(zip(name + '.zip'))
     .pipe(gulp.dest('build'));
 });
