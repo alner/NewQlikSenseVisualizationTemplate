@@ -15,7 +15,8 @@
   "license": "MIT",
   "repository": "https://github.com/alner/NewQlikSenseVisualizationTemplate",
   "dependencies": {
-    "babel-runtime": "^5.8.20"
+    "babel-runtime": "^5.8.20",
+    "less-plugin-autoprefix": "^1.5.1"
   },
   "devDependencies": {
     "babel": "^5.8.21",
